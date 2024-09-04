@@ -17,6 +17,7 @@ import { Auth, GetUser } from 'src/auth/decorators';
 import { ValidRoles } from 'src/auth/interfaces/valid-roles.interface';
 import { User } from 'src/auth/entities/user.entity';
 
+
 @Controller('products')
 export class ProductsController {
   constructor(private readonly productsService: ProductsService) {}
